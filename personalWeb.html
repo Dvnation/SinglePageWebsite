@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Brown | Personal Website</title>
+    <link rel="stylesheet" href="personalWeb.css">
+    <script defer src="personalWeb.js"></script>
+</head>
+<body>
+
+    <!-- Header -->
+    <header>
+        <div class="container">
+            <h1  class="OwnerName">Ugochukwu Divine Brown</h1>
+            
+            <nav id="navContent1">
+                <ul>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+            <a id="navContent2" href="Divine_Cv.pdf" class="btn" download>Download Resume</a>
+
+            <div class="hamburger" onclick="hamburgerClick()">
+                <span class="line"></span>
+                <span class="line"></span>
+                <span class="line"></span>
+
+            </div>
+        </div>
+
+        
+
+
+            <nav id="navBlock" style="display: none;" >
+
+            
+            <ul style="flex-direction: column; align-items: flex-start; margin: 20px 0;background-color: gray;">
+                <li style="margin-bottom: 10px; margin-top: 10px;"><a href="#about">About</a></li>
+                <li style="margin-bottom: 10px;"><a href="#skills">Skills</a></li>
+                <li style="margin-bottom: 10px;"><a href="#portfolio">Portfolio</a></li>
+                <li style="margin-bottom: 10px;"><a href="#contact">Contact</a></li>
+            </ul>       
+            <a id="navContent2" href="Divine_Cv.pdf" class="btn" download>Download Resume</a>
+
+        </nav>
+        
+    </header>
+
+ 
+    <!-- Hero Section -->
+    <section id="hero">
+       
+        <div class="Hero-container">
+            <div class="hero-content">
+                <h2 style="color: black;">Hi, I'm <span class="HeaderName" style="color: green;">Ugochukwu Divine</span></h2>
+                <p style="color: black;">A  Junior Passionate <strong style="color: red;">Software Developer</strong> crafting user-friendly web and native mobile apps .</p>
+                <a href="#portfolio" class="btn">View My Work</a>
+            </div>
+            <img src="dvNation2.jpg" alt="Your Photo" class="profile-pic">
+        </div>
+
+        <div class="containerImage">
+<h1  class="containerImageIcon" >&#60;/&#62;</h1>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills">
+        <div class="container">
+            <h2>My Skills</h2>
+            <div class="skill-grid">
+                <div class="skill">
+                    <h3>HTML5</h3>
+                    <div class="progress-bar"><span style="width: 95%;"></span></div>
+                    <h3>95%</h3>
+
+                </div>
+                <div class="skill">
+                    <h3>CSS3</h3>
+                    <div class="progress-bar"><span style="width: 90%;"></span></div>
+                    <h3>90%</h3>
+                </div>
+                <div class="skill">
+                    <h3>JavaScript</h3>
+                    <div class="progress-bar"><span style="width: 85%;"></span></div>
+                    <h3>85%</h3>
+
+                </div>
+                <div class="skill">
+                    <h3>React Native</h3>
+                    <div class="progress-bar"><span style="width: 80%;"></span></div>
+                    <h3>70%</h3>
+
+                </div>
+
+                <div class="skill">
+                    <h3>React Js</h3>
+                    <div class="progress-bar"><span style="width: 80%;"></span></div>
+                    <h3>80%</h3>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio Section -->
+    <section id="portfolio">
+        <div class="container">
+            <h2>Portfolio</h2>
+            <div class="portfolio-grid">
+                <div class="portfolio-item">
+                    <!-- <img src="dvNation.jpg" alt="Project 1"> -->
+                    <h3>Bible App</h3>
+                    <p>A multi version bible web application built using React Js and CSS.</p>
+                    <a href="https://checkmate-tau.vercel.app/" target="_blank" class="btn">View Project</a>
+                </div>
+                <div class="portfolio-item">
+                    <!-- <img src="project2.jpg" alt="Project 2"> -->
+                    <h3>A simple Calculator</h3>
+                    <p>A simple calculator built exclusively using HTML, CSS and JS</p>
+                    <a href="https://calculator-theta-two-48.vercel.app" target="_blank" class="btn">View Project</a>
+                </div>
+                
+            </div>
+        </div>
+    </section>
+
+
+    <section id="education">
+        <div class="container">
+            <h2>Education</h2>
+
+            <div class="eduSection" >
+                <div class="eduSectionLeft">
+                    <h1>First School leaving Certificate</h1>
+                    <p>2004-2010</p>
+                </div>
+                <div class="eduSectionRight">
+                    <h3>Mother Alice Memorial School (Lagos) </h3>
+                </div>
+
+            </div>
+            <div class="eduSection">
+                <div class="eduSectionLeft">
+                    <h1>Secondary School Certificate Examination</h1>
+                    <p>2010-2016</p>
+                </div>
+                <div class="eduSectionRight">
+                    <h3>St. Anthony International School (Lagos)</h3>
+
+                </div>
+
+            </div>
+            <div class="eduSection">
+                <div class="eduSectionLeft">
+                    <h1>A-Levels</h1>
+                    <p>2018-2020</p>
+                </div>
+                <div class="eduSectionRight">
+                    <h3>CornerStone School of Advanced Studies (Ilorin)</h3>
+
+                </div>
+
+            </div>
+            <div class="eduSection">
+                <div class="eduSectionLeft">
+                    <h1>B.Sc Anatomy</h1>
+                    <p>2022-2024</p>
+                </div>
+                <div class="eduSectionRight">
+                    <h3>University of Ilorin (Ilorin)</h3>
+
+                </div>
+
+            </div>
+
+
+        </div>
+    </section>
+
+    <section id="Experience">
+        <h1>Experience</h1>
+        <div id="Exp-container">
+            <div style=" padding: 25px; width: 45%;" class="ExpChildLeft">
+                <img style="width: 75%; height: 100%" src="dvNation9.jpg" alt="Project 1">
+
+            </div>
+            <div style="align-content: center;" class="ExpChildRight">
+<div id="Exp-Writeup-Content-Div">
+                        
+<h1 class="Exp-Writeup-Content">
+    Intern Web developer at FlaveTech (March 2022 - August 2022 )
+</h1>
+<h4 class="Exp-Writeup-Content" >
+   <span style="
+    font-size: 5em;">.</span> Learnt the basics of web development(Front-end)
+</h4>
+<h4 class="Exp-Writeup-Content"><span style="font-size: 5em;">.</span>
+     Assisted in building small web projects using HTML, CSS, JS and React
+ </h4>
+
+<h4 class="Exp-Writeup-Content"><span style="font-size: 5em;">.</span>
+    
+    Gained familiarity with Git and Agile development processes</h4>
+<h4 class="Exp-Writeup-Content"><span style="font-size: 5em;">.</span> Learned from senior devlopers and contributed to minor bug fixes</h4>
+
+</div>
+                </div>
+            
+        </div>
+    </section>
+
+    <section id="MyImageContainer">
+
+        <div class="MyImages">
+            <img style="width: 100%; height: 100%" src="dvNation3.jpg" alt="Project 1">
+        </div>
+        <div class="MyImages">
+            <img style="width: 100%; height: 100%" src="dvNation4.jpg" alt="Project 1">
+
+        </div>
+        <div class="MyImages">
+            <img style="width: 100%; height: 100%" src="dvNation5.jpg" alt="Project 1">
+
+        </div>
+        <div class="MyImages">
+            <img style="width: 100%; height: 100%" src="dvNation7.jpg" alt="Project 1">
+
+        </div>
+        <div class="MyImages">
+            <img style="width: 100%; height: 100%" src="dvNation8.jpg" alt="Project 1">
+
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <div class="container">
+            <h2>Contact Me</h2>
+            <form id="contact-form">
+                <input type="text" id="name" placeholder="Your Name" required>
+                <input type="email" id="email" placeholder="Your Email" required>
+                <textarea id="message" placeholder="Your Message" required></textarea>
+                <button type="submit" class="btn">Send Message</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Ugochukwu Divine Brown. All rights reserved.</p>
+            <div class="social-icons">
+                <a href="https://twitter.com" target="_blank"><i class="fab fa-twitter"></i></a>
+                <a href="https://linkedin.com" target="_blank"><i class="fab fa-linkedin"></i></a>
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>
